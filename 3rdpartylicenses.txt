@@ -12,6 +12,8 @@ MIT
 
 @shield/shared-ui
 
+@shield/user
+
 rxjs
 Apache-2.0
                                Apache License
