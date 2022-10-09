@@ -112,7 +112,7 @@ __webpack_require__.d(exports, {
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"233":"23ca6b96f8db22ca","237":"127e34a7e85dd0b5","253":"82396f7e6a6966fd","256":"3100d4c4b4aadd4b","327":"9917de1264bc7cef","350":"568fc550c7c360db","355":"150c53da11d25bc5","423":"4b16ce9f8009198f","481":"e55a67fcfb09334d","529":"fb040414a10e0128","592":"fbb452d90e59d9cc","655":"c3970d8ccb360add","730":"052ec7f4606c5852","895":"def0db6afa4c1b35"}[chunkId] + ".js";
+/******/ 		return "" + (chunkId === 592 ? "common" : chunkId) + "." + {"233":"23ca6b96f8db22ca","237":"127e34a7e85dd0b5","253":"82396f7e6a6966fd","256":"3100d4c4b4aadd4b","327":"9917de1264bc7cef","350":"568fc550c7c360db","355":"204a79ff040b963c","423":"4b16ce9f8009198f","481":"e55a67fcfb09334d","529":"fb040414a10e0128","592":"e57213cf906d2ed4","655":"c3970d8ccb360add","730":"052ec7f4606c5852","895":"def0db6afa4c1b35"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -232,7 +232,7 @@ __webpack_require__.d(exports, {
 /******/ 				register("@angular/platform-browser", "14.2.5", () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(423), __webpack_require__.e(481)]).then(() => (() => (__webpack_require__(1481))))));
 /******/ 				register("@angular/router", "14.2.5", () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(423), __webpack_require__.e(350), __webpack_require__.e(253), __webpack_require__.e(237)]).then(() => (() => (__webpack_require__(6237))))));
 /******/ 				register("@shield/shared-ui", "0.0.2", () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(423), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(1967))))));
-/******/ 				register("@shield/user", "0.0.1", () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(423), __webpack_require__.e(233), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(181))))));
+/******/ 				register("@shield/user", "0.0.2", () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(423), __webpack_require__.e(233), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(194))))));
 /******/ 				register("tslib", "2.4.0", () => (__webpack_require__.e(655).then(() => (() => (__webpack_require__(655))))));
 /******/ 			}
 /******/ 			break;
@@ -415,7 +415,7 @@ __webpack_require__.d(exports, {
 /******/ 		5618: () => (loadStrictSingletonVersionCheckFallback("default", "tslib", [1,2,3,0], () => (__webpack_require__.e(655).then(() => (() => (__webpack_require__(655))))))),
 /******/ 		5253: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/platform-browser", [1,14,0,0], () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(481)]).then(() => (() => (__webpack_require__(1481))))))),
 /******/ 		7233: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/common/http", [1,14,0,0], () => (Promise.all([__webpack_require__.e(350), __webpack_require__.e(529)]).then(() => (() => (__webpack_require__(529))))))),
-/******/ 		2464: () => (loadFallback("default", "@shield/user", () => (Promise.all([__webpack_require__.e(233), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(181))))))),
+/******/ 		2464: () => (loadFallback("default", "@shield/user", () => (Promise.all([__webpack_require__.e(233), __webpack_require__.e(592)]).then(() => (() => (__webpack_require__(194))))))),
 /******/ 		4344: () => (loadFallback("default", "@shield/shared-ui", () => (__webpack_require__.e(592).then(() => (() => (__webpack_require__(1967))))))),
 /******/ 		730: () => (loadStrictSingletonVersionCheckFallback("default", "@angular/router", [1,14,0,0], () => (Promise.all([__webpack_require__.e(327), __webpack_require__.e(350), __webpack_require__.e(253), __webpack_require__.e(237)]).then(() => (() => (__webpack_require__(6237)))))))
 /******/ 	};
